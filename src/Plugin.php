@@ -112,11 +112,11 @@ class Plugin {
 	 *
 	 * @since 1.0.0
 	 *
-	 * @param string $hook
+	 * @param string $hook Hook to initialize plugin on.
 	 *
 	 * @return void
 	 */
-	public function register( $hook ) {
+	public function register( $hook = 'plugins_loaded' ) {
 		add_action( $hook, [ $this, 'register_services' ] );
 	}
 
