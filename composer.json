@@ -1,20 +1,19 @@
 {
-    "name": "seothemes/starter-plugin",
-    "description": "Allows users to bookmark posts, pages and custom post types.",
-    "type": "wordpress-plugin",
-    "license": "GPL-3.0-or-later",
-    "authors": [
-        {
-            "name": "seothemes",
-            "email": "seothemeswp@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-    },
-    "autoload": {
-        "psr-4": {
-            "SeoThemes\\StarterPlugin\\": "src/"
-        }
+  "name": "seothemes/starter-plugin",
+  "description": "Allows users to bookmark posts, pages and custom post types.",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "seothemes",
+      "email": "seothemeswp@gmail.com"
     }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "SeoThemes\\StarterPlugin\\": "src/"
+    }
+  }
 }
